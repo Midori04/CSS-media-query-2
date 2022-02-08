@@ -25,6 +25,8 @@ vertical-align: top;
  
 img {
     border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -36,6 +38,7 @@ footer {
 
 .section .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 
 }
@@ -45,12 +48,16 @@ footer {
     margin: 50px;
 }
 
+
 .container {
     display: flex;
+    flex-wrap: wrap-reverse;
     flex-direction: row;
 }
 
-@media only screen (min-width: 768px){
-
+@media all and (max-width: 992px) {
+    body {
+        color green
     }
+}
   
